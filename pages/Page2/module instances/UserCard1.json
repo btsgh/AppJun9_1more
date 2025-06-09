@@ -6,13 +6,33 @@
   "type": "UI_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "phone"
+      },
+      {
+        "key": "email"
+      },
+      {
+        "key": "date_of_birth"
+      },
+      {
+        "key": "country"
+      },
+      {
+        "key": "photo"
+      },
+      {
+        "key": "name"
+      }
+    ],
     "inputs": {
-      "country": "United States",
-      "date_of_birth": "10/10/1950",
-      "email": "john.doe@gmail.com",
-      "name": "John Doe",
-      "phone": "+1 678 2345678",
-      "photo": "https://mkorostoff.github.io/hundred-thousand-faces/img/m/1.jpg"
+      "country": "{{UserReport1.outputs.selectedRow.country}}",
+      "date_of_birth": "{{UserReport1.outputs.selectedRow.dob}}",
+      "email": "{{UserReport1.outputs.selectedRow.email}}",
+      "name": "{{UserReport1.outputs.selectedRow.name}}",
+      "phone": "{{UserReport1.outputs.selectedRow.phone}}",
+      "photo": "{{UserReport1.outputs.selectedRow.image}}"
     },
     "moduleInputs": {
       "eccsdaaebk": {
