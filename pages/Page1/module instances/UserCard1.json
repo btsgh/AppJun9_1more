@@ -1,0 +1,86 @@
+{
+  "gitSyncId": "6846bc76e7a43b4e372b34d2_fe58cee3-2f2b-4e72-a24a-1dd7076e8af6",
+  "id": "Page1_UserCard1",
+  "moduleUUID": "3c1c2602-f94a-40e9-ba4e-72166d505144",
+  "packageUUID": "b24f2a6e-ab36-4d92-8c52-15896f658793",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "phone"
+      },
+      {
+        "key": "email"
+      },
+      {
+        "key": "date_of_birth"
+      },
+      {
+        "key": "country"
+      },
+      {
+        "key": "photo"
+      },
+      {
+        "key": "name"
+      }
+    ],
+    "inputs": {
+      "country": "{{UserReport1.outputs.selectedRow.country}}",
+      "date_of_birth": "{{UserReport1.outputs.selectedRow.dob}}",
+      "email": "{{UserReport1.outputs.selectedRow.email}}",
+      "name": "{{UserReport1.outputs.selectedRow.name}}",
+      "phone": "{{UserReport1.outputs.selectedRow.phone}}",
+      "photo": "{{UserReport1.outputs.selectedRow.image}}"
+    },
+    "moduleInputs": {
+      "eccsdaaebk": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "john.doe@gmail.com",
+        "id": "eccsdaaebk",
+        "label": "email",
+        "propertyName": "inputs.email"
+      },
+      "hknrltdivj": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "https://mkorostoff.github.io/hundred-thousand-faces/img/m/1.jpg",
+        "id": "hknrltdivj",
+        "label": "photo",
+        "propertyName": "inputs.photo"
+      },
+      "kbgxaljprj": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "+1 678 2345678",
+        "id": "kbgxaljprj",
+        "label": "phone",
+        "propertyName": "inputs.phone"
+      },
+      "odubbdwlxf": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "United States",
+        "id": "odubbdwlxf",
+        "label": "country",
+        "propertyName": "inputs.country"
+      },
+      "ullzxtxfhn": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "10/10/1950",
+        "id": "ullzxtxfhn",
+        "label": "date_of_birth",
+        "propertyName": "inputs.date_of_birth"
+      },
+      "vphocyxpod": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "John Doe",
+        "id": "vphocyxpod",
+        "label": "name",
+        "propertyName": "inputs.name"
+      }
+    },
+    "name": "UserCard1",
+    "pageId": "Page1",
+    "version": "v0.1.0",
+    "widgetId": "g65str7msf"
+  }
+}
