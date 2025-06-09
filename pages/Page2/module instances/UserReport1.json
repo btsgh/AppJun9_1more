@@ -8,7 +8,7 @@
     "contextType": "PAGE",
     "inputs": {
       "country": "United States",
-      "limit": "10"
+      "limit": "100"
     },
     "moduleInputs": {
       "gtrqxyxlil": {

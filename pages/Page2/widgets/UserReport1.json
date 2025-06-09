@@ -9,6 +9,7 @@
   "children": [],
   "containerStyle": "card",
   "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hasMetaWidgets": true,
   "isCanvas": true,
