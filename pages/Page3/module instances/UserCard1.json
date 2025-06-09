@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6846bfde1a161d4ab8330250_23c9d48d-29d1-49ad-b0a7-dff1716708bf",
-  "id": "Page2_UserCard1",
+  "gitSyncId": "6846c27f1a161d4ab833029c_42a08f01-3439-40bf-84ae-47e421f95474",
+  "id": "Page3_UserCard1",
   "moduleUUID": "3c1c2602-f94a-40e9-ba4e-72166d505144",
   "packageUUID": "b24f2a6e-ab36-4d92-8c52-15896f658793",
   "type": "UI_MODULE",
@@ -79,8 +79,8 @@
       }
     },
     "name": "UserCard1",
-    "pageId": "Page2",
+    "pageId": "Page3",
     "version": "v0.2.1",
-    "widgetId": "9dul85zan1"
+    "widgetId": "r653g4ys0a"
   }
 }

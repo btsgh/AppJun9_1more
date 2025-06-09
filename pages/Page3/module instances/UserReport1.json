@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6846bfde1a161d4ab8330250_1fb051fe-25ae-48ae-b872-a893503ff5cb",
-  "id": "Page2_UserReport1",
+  "gitSyncId": "6846c27f1a161d4ab833029c_c4e3bfc5-152a-46ce-bafb-88526a663800",
+  "id": "Page3_UserReport1",
   "moduleUUID": "d6d49bf7-3c55-4658-a793-0b684464bb21",
   "packageUUID": "b24f2a6e-ab36-4d92-8c52-15896f658793",
   "type": "UI_MODULE",
@@ -8,7 +8,7 @@
     "contextType": "PAGE",
     "inputs": {
       "country": "United States",
-      "limit": "100"
+      "limit": "10"
     },
     "moduleInputs": {
       "gtrqxyxlil": {
@@ -27,8 +27,8 @@
       }
     },
     "name": "UserReport1",
-    "pageId": "Page2",
+    "pageId": "Page3",
     "version": "v0.2.1",
-    "widgetId": "bgnp5c1oyg"
+    "widgetId": "awys0y8pbw"
   }
 }
